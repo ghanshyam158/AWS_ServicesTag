@@ -15,7 +15,7 @@ def lambda_handler(event, context):
     kms_client = boto3.client('kms')
     codecommit_client = boto3.client('codecommit')
     elb_client = boto3.client('elbv2')  # For Application and Network Load Balancers
-    cloudtrail_client = boto3.client('cloudtrail')  # For CloudTrail
+    cloudtrail_client = boto3.client('cloudtrail')
 
     results = {
         'RunningInstances': [],
