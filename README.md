@@ -1,4 +1,4 @@
-# AWS_ServicesTag
+# AWS Services Tag Listing
 What the Script Does
 The script is an AWS Lambda function that collects information about various AWS resources in your account. It uses the AWS SDK for Python (Boto3) to interact with different AWS services and gathers details on the following:
 1.	EC2 Instances: Lists running and stopped EC2 instances, including their IDs, states, and tags.
